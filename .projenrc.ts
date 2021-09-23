@@ -5,6 +5,16 @@ const project = new AwsCdkTypeScriptApp({
   name: 'amplify-cognito-saml',
   projenrcTs: true,
 
+  cdkDependencies: [
+    '@aws-cdk/aws-cognito',
+    '@aws-cdk/aws-iam',
+  ],
+
+  buildWorkflow: false,
+  releaseWorkflow: false,
+  stale: false,
+  github: false,
+
   // cdkDependencies: undefined,        /* Which AWS CDK modules (those that start with "@aws-cdk/") this app uses. */
   // deps: [],                          /* Runtime dependencies of this module. */
   // description: undefined,            /* The description is just a string that helps people understand the purpose of the package. */
@@ -13,4 +23,6 @@ const project = new AwsCdkTypeScriptApp({
   // projectType: ProjectType.UNKNOWN,  /* Which type of project this is (library/app). */
   // release: undefined,                /* Add release management to this project. */
 });
+
+project.gitignore.include('cdk.out');
 project.synth();

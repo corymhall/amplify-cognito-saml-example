@@ -1,0 +1,18 @@
+{
+  "version": "14.0.0",
+  "artifacts": {
+    "assembly-CognitoApp": {
+      "type": "cdk:cloud-assembly",
+      "properties": {
+        "directoryName": "assembly-CognitoApp",
+        "displayName": "CognitoApp"
+      }
+    },
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    }
+  }
+}

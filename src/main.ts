@@ -1,22 +1,14 @@
-import { App, Construct, Stack, StackProps } from '@aws-cdk/core';
+import * as cdk from '@aws-cdk/core';
+import { AppStage } from './stage';
 
-export class MyStack extends Stack {
-  constructor(scope: Construct, id: string, props: StackProps = {}) {
-    super(scope, id, props);
+const app = new cdk.App();
 
-    // define resources here...
-  }
-}
+new AppStage(app, 'CognitoApp', {
+  env: {
+    account: process.env.CDK_DEFAULT_ACCOUNT,
+    region: 'us-east-1',
+  },
+});
 
-// for development, use account/region from cdk cli
-const devEnv = {
-  account: process.env.CDK_DEFAULT_ACCOUNT,
-  region: process.env.CDK_DEFAULT_REGION,
-};
-
-const app = new App();
-
-new MyStack(app, 'my-stack-dev', { env: devEnv });
-// new MyStack(app, 'my-stack-prod', { env: prodEnv });
 
 app.synth();

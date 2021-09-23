@@ -1,0 +1,258 @@
+{
+  "version": "14.0.0",
+  "artifacts": {
+    "CognitoApp-AuthStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://580348834564/us-east-1",
+      "properties": {
+        "templateFile": "CognitoApp-AuthStack.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/CognitoApp/AuthStack/UserPool/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserPool6BA7E5F2",
+            "trace": [
+              "new UserPool (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/aws-cognito/lib/user-pool.ts:444:22)",
+              "new AppStage (/home/hallcor/github/corymhall/amplify-cognito-saml/src/stage.ts:10:18)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/src/main.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/nix/store/n3p8r76d8l4r7qfs4sc5z3pk2ipjlh7l-nodejs-14.17.6/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CognitoApp/AuthStack/UserPool/domain/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserPooldomain9F37177D",
+            "trace": [
+              "new UserPoolDomain (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/aws-cognito/lib/user-pool-domain.ts:78:22)",
+              "UserPool.addDomain (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/aws-cognito/lib/user-pool.ts:339:12)",
+              "new AppStage (/home/hallcor/github/corymhall/amplify-cognito-saml/src/stage.ts:16:10)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/src/main.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/nix/store/n3p8r76d8l4r7qfs4sc5z3pk2ipjlh7l-nodejs-14.17.6/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CognitoApp/AuthStack/UserPool/client/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserPoolclient6D9E70D4",
+            "trace": [
+              "new UserPoolClient (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/aws-cognito/lib/user-pool-client.ts:209:22)",
+              "UserPool.addClient (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/aws-cognito/lib/user-pool.ts:332:12)",
+              "new AppStage (/home/hallcor/github/corymhall/amplify-cognito-saml/src/stage.ts:38:25)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/src/main.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/nix/store/n3p8r76d8l4r7qfs4sc5z3pk2ipjlh7l-nodejs-14.17.6/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CognitoApp/AuthStack/SamlProvider": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SamlProvider",
+            "trace": [
+              "new AppStage (/home/hallcor/github/corymhall/amplify-cognito-saml/src/stage.ts:23:5)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/src/main.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/nix/store/n3p8r76d8l4r7qfs4sc5z3pk2ipjlh7l-nodejs-14.17.6/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CognitoApp/AuthStack/IdentityPool": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "IdentityPool",
+            "trace": [
+              "new AppStage (/home/hallcor/github/corymhall/amplify-cognito-saml/src/stage.ts:50:26)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/src/main.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/nix/store/n3p8r76d8l4r7qfs4sc5z3pk2ipjlh7l-nodejs-14.17.6/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CognitoApp/AuthStack/AuthRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AuthRole900B840B",
+            "trace": [
+              "new Role (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/aws-iam/lib/role.ts:199:18)",
+              "new AppStage (/home/hallcor/github/corymhall/amplify-cognito-saml/src/stage.ts:58:22)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/src/main.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/nix/store/n3p8r76d8l4r7qfs4sc5z3pk2ipjlh7l-nodejs-14.17.6/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CognitoApp/AuthStack/AuthRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AuthRoleDefaultPolicyD77E3A7F",
+            "trace": [
+              "new Policy (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/aws-iam/lib/policy.ts:89:22)",
+              "Role.addToPrincipalPolicy (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/aws-iam/lib/role.ts:236:28)",
+              "new AppStage (/home/hallcor/github/corymhall/amplify-cognito-saml/src/stage.ts:65:14)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/src/main.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/nix/store/n3p8r76d8l4r7qfs4sc5z3pk2ipjlh7l-nodejs-14.17.6/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CognitoApp/AuthStack/RoleAttachment": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RoleAttachment",
+            "trace": [
+              "new AppStage (/home/hallcor/github/corymhall/amplify-cognito-saml/src/stage.ts:70:5)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/src/main.ts:6:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/nix/store/n3p8r76d8l4r7qfs4sc5z3pk2ipjlh7l-nodejs-14.17.6/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CognitoApp/AuthStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:22:24)",
+              "/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/core/lib/private/synthesis.ts:166:5",
+              "visit (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/core/lib/private/synthesis.ts:231:5)",
+              "visit (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/core/lib/private/synthesis.ts:227:5)",
+              "injectMetadataResources (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/core/lib/private/synthesis.ts:157:3)",
+              "Object.synthesize (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "AppStage.synth (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "synthNestedAssemblies (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/core/lib/private/synthesis.ts:78:13)",
+              "Object.synthesize (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/core/lib/private/synthesis.ts:14:3)",
+              "App.synth (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/@aws-cdk/core/lib/stage.ts:94:23)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/src/main.ts:14:5)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Module.m._compile (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1056:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Object.require.extensions.<computed> [as .ts] (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/index.ts:1059:12)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "main (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:198:14)",
+              "Object.<anonymous> (/home/hallcor/github/corymhall/amplify-cognito-saml/node_modules/ts-node/src/bin.ts:288:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1072:14)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)",
+              "Module.load (internal/modules/cjs/loader.js:937:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:778:12)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)",
+              "/nix/store/n3p8r76d8l4r7qfs4sc5z3pk2ipjlh7l-nodejs-14.17.6/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ]
+      },
+      "displayName": "CognitoApp/AuthStack"
+    }
+  }
+}
